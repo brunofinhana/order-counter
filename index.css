@@ -1,4 +1,7 @@
 body {
+	width: 100vw;
+	height: 100vh;
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -7,7 +10,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	height: 100vh;
+
 	overflow: hidden;
 	font-family: "Open Sans", "Helvetica Neue", sans-serif;
 	font-weight: bold;
@@ -15,15 +18,14 @@ body {
 }
 
 .content-wrapper {
-	display: flex;
+	/* 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+ */
 
-	max-width: 80%;
-	height: 30%;
 	padding: 20px;
-	margin: auto;
+	margin: 0 0;
 
 	border-radius: 10px;
 	background-color: whitesmoke;
